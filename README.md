@@ -1,6 +1,10 @@
-相关链接：[天生爱人的能力](https://baxi-beef.github.io/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](https://baxi-beef.github.io/link2.html)  [网络生物观测站](https://baxi-beef.github.io/link2.html)
+相关链接：[天生爱人的能力](https://baxi-beef.github.io/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](https://baxi-beef.github.io/link2.html)  [网络生物观测站](https://baxi-beef.github.io/link2.html) [提交你的见解](https://github.com/baxi-beef/baxi-beef.github.io/issues)
+
+> **Warnning**：
+> 本网站还没有构建完全，很多页面是404的状态，请等待完善
 
 ![](logo.png) 
+
 # 男性之音网
 
 ```C++
