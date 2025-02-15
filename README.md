@@ -1,13 +1,10 @@
 相关链接：[天生爱人的能力](https://baxi-beef.github.io/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](https://baxi-beef.github.io/link2.html)  [网络生物观测站](https://d-baxi-beef.github.io/) [提交你的见解](https://github.com/baxi-beef/baxi-beef.github.io/issues) [女权群体内部资料](3-1.jpg)
 
-> **Warnning**：  
-> 本网站还没有构建完全，很多页面是404的状态，请等待完善
-
 
 # 男性之音网
 
 > **站长提示**  
-> 非男权/红丸主义者滚远点哈，男的一巴掌，女的更是绞肉机
+> 我不管你是所谓“温和女权”还是“极端女权”，只要沾点“女权”就滚远点？
 
 ## 项目背景
 
