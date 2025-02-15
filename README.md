@@ -1,4 +1,4 @@
-相关链接：[天生爱人的能力](https://baxi-beef.github.io/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](https://baxi-beef.github.io/link2.html)  [网络生物观测站](https://baxi-beef.github.io/link3.html) [提交你的见解](https://github.com/baxi-beef/baxi-beef.github.io/issues)
+相关链接：[天生爱人的能力](https://baxi-beef.github.io/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](https://baxi-beef.github.io/link2.html)  [网络生物观测站](https://baxi-beef.github.io/link3.html) [提交你的见解](https://github.com/baxi-beef/baxi-beef.github.io/issues) [女权群体内部资料](3.1.jpg)
 
 > **Warnning**：  
 > 本网站还没有构建完全，很多页面是404的状态，请等待完善
@@ -20,14 +20,6 @@
 ![](index-1.jpg)
 
 > 沉默=帮凶
-
-## 她们的真实嘴脸
-
-![](女拳内部资料-1.jpg)
-
-![](2-1.jpg)
-
-![](女拳内部资料-3.jpg)
 
 一切的“父权制”赎罪券都是她们编出来的，不要相信她们的任何一句话，她们十句有九句假话。
 
