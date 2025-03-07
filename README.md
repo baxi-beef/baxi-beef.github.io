@@ -1,4 +1,4 @@
-相关链接：[天生爱人的能力](https://baxi-beef.github.io/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](https://baxi-beef.github.io/link2.html)  [网络生物观测站](https://d-baxi-beef.github.io/) [提交你的见解](https://github.com/baxi-beef/baxi-beef.github.io/issues) [女权群体内部资料](3-1.jpg)
+相关链接：[天生爱人的能力](./src/link1.html)  [男性游戏收录](https://poet000.github.io/yx/index.html)  [男性之光](./src/link2.html)  [网络生物观测站](https://d-baxi-beef.github.io/) [提交你的见解](https://github.com/baxi-beef/baxi-beef.github.io/issues) [女权群体内部资料](./pic/3-1.jpg)
 
 
 # 男性之音网
@@ -18,7 +18,7 @@
 
 给男性同胞们一个认识当前环境的站点，也给男性同胞一个认识她们的站点。其中[天生爱人能力观测站](./link1.html)和[网络生物观测站](d-baxi-beef.github.io)深度揭秘了她们的嘴脸。我们建立了这个站点不打算以和平求生存，这样只会觉得男性好欺负。我们将会通过打“男拳”的方式反对“女拳”。期间**一定会有正常女性被误伤**。但是，**依据女拳群体“沉默=帮凶”**，所以**正常女性也在攻击范围以内**，就像他们也将**正常男性也作为攻击范围内的人一样**。我们的任何示弱，换来的只能是羞辱。
 
-![](index-1.jpg)
+![](./pic/index-1.jpg)
 
 > 如果正常女性想要阻止女拳作恶但是阻止不了，就只能说明正常女性占少数。如果正常女性占绝大多数，但不愿阻止女拳作恶，那说明那些人本来就是女拳。正在查看这个网站的某些自诩“正常女性”的女士，你觉得你是前者？还是后者？
 
