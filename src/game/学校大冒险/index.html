@@ -1,0 +1,314 @@
+<html lang="zh">
+
+<head>
+	<meta charset="utf-8">
+	<link crossorigin="" rel="shortcut icon" type="image/x-icon" href="./img/logo-cf.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" property="og:description" content="请关注公众号：嘲讽">
+	<meta name="keywords" content="国男大冒险|国男大冒险经典版|国男模拟器|国男的一生|小游戏|成人小游戏|国男小游戏">
+	<title>嘲讽 - 国男大冒险</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DHQJEB2VL9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DHQJEB2VL9');
+</script>
+<body>
+	<div class="div_title">
+		<div style="position: absolute; right: 0; display: flex; height: 65px; gap: 10px; padding-right: 20px;">
+			<div onclick="location.href='../index.html'" class="title_button">更多游戏</div>
+			<div onclick="share()" class="title_button">分享</div>
+		</div>
+	</div>
+	<div id="root">
+		<div class="div_mainlay">
+			<div class="views">
+				<div class="text-a">
+					<div id="title">加载中···</div>
+				</div>
+				<div class="text-b">
+					<div id="content"></div>
+				</div>
+				<div id="linkDiv" class="text-b" style="display:none;">
+					<div>关键词：<a id="linkLabel" style="color:#0000ff;cursor:pointer;" target="_blank"></a></div>
+				</div>
+				<div id="btnList">
+				</div>
+				<!-- 【页脚】 -->
+				<!--div class="footer">
+					<div class="footer-top">
+						<a href="/sm/wx-ds.html">打赏</a>
+						<a href="/sm/wx-jq.html">进群</a>
+						<a href="/sm/wx-rh.html">入伙</a>
+					</div>
+					<div class="footer-bottom">
+						<a href="https://github.com/fengzi2333/GuoNanSimulator">Copyright © fengzi2333</a>
+					</div>
+				</div-->
+			</div>
+		</div>
+	</div>
+
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- 【选择】 -->
+<script>
+	function getItem(id, json) {
+		var tmp = null;
+		for (var i = 0; i < json.length; i++) {
+			if (json[i].id == id) {
+				tmp = json[i];
+				break;
+			}
+		}
+		return tmp;
+	}
+	var allJson = [];
+
+	$(document).ready(function (e) {
+		allJson = [
+			{
+                id:1,
+                content:'你现年16岁，是高中生。你正在军训，夜晚正在寝室洗澡，第二天，却发现你被偷拍，且挂在了一位女同学的朋友圈里<br><br>还扬言称：我有一次女扮男装进去，整个澡堂都在唱军歌<br><br>老师更是直言：抛开事实不谈，你们大男人为什么要翻一个小女生的朋友圈？',
+                link:[
+                    {
+                        str:'上海徐汇中学女生偷拍事件',
+                        src:'https://www.bilibili.com/video/BV12s4y1S7ZA'
+                    }
+                ],
+                btnList: [{ txt: '如果能重来...', lastId: 2 }]
+            } ,   
+            {
+				id:2,
+				content:'你选择了请假，待同学们军训完成，你如期返校。但是你却被几个女生拦住了，前面几个女生人高马大，你根本不是她的对手<br>她们要你交出来你身上所有的钱<br><br>你选择？',
+				btnList:[{txt:'不给！',lastId:3},{txt:'给吧，多一事不如省一事',lastId:4}]
+            },
+			{
+				id:3,
+				content:'你被按在厕所打，你去找你的班主任，可是班主任不仅没有批评那些女生，反倒是责怪你斤斤计较。',
+				link:[
+					{
+					str:'又是霸凌！男生被女同学堵公厕殴打，警方：均未成年',
+					src:'https://www.bilibili.com/video/BV1im41167WD'
+					}
+				],
+				btnList: [{ txt: '如果能重来...', lastId: 2 }]
+			},
+			{
+				id:4,
+				content:'你给了钱，免了灾，继续上学。你看到一位女同学玩手机，影响自己学习，你的做法：',
+				btnList:[{txt:'当没看到',lastId:5},{txt:'影响我学习？举报啊',lastId:6}]
+			},
+			{
+				id:5,
+				content:'你在高中三年间，成绩优异，成功的毕了业，考上了一所心仪了大学。你现在已经成为了"国男"，那么请开始新的冒险',
+				link:[
+					{
+						str:'国男大冒险',
+						src:'./../国男大冒险/index.html'
+					}
+				],
+				btnList:[{txt:'恭喜通关',lastId:1}]
+			},
+			{
+				id:6,
+				content:'体育课上，那个女生拿起一杯水就朝你脸上泼了过去，你来不及躲避，就被烫伤了<br><br>她还说：反正也没办法拿我怎么样<br><br>这件事情被媒体曝光了，她家属称其得了一种很常见的“妇科病”———抑郁症，你这件事情最终不了了之，你只好休学',
+				link:[
+					{
+					str:'初中女生泼男同学开水致毁容，家长称女生抑郁开除或致自杀',
+					src:'https://cn.bing.com/search?q=%E5%88%9D%E4%B8%AD%E5%A5%B3%E7%94%9F%E6%B3%BC%E7%94%B7%E5%90%8C%E5%AD%A6%E5%BC%80%E6%B0%B4%E8%87%B4%E6%AF%81%E5%AE%B9%EF%BC%8C%E5%AE%B6%E9%95%BF%E7%A7%B0%E5%A5%B3%E7%94%9F%E6%8A%91%E9%83%81%E5%BC%80%E9%99%A4%E6%88%96%E8%87%B4%E8%87%AA%E6%9D%80'
+					}
+				],
+				btnList: [{ txt: '如果能重来...', lastId: 4 }]
+			}
+		];
+		$("#title").html("校园大冒险");
+		loadItem(1);
+	});
+
+	function loadItem(id) {
+		var info = getItem(id, allJson);
+		if (info != null) {
+			$('#content').html(info.content);
+			if (info.link) {
+				$('#linkDiv').html("");
+				for (var i = 0; i < info.link.length; i++) {
+					$('#linkDiv').append('<div>关键词：<a onclick="window.open(\'' + info.link[i].src + '\')" style="color:#0000ff;cursor:pointer;" target="_blank">' + info.link[i].str + '</a></div>');
+				}
+				$('#linkDiv').css('display', 'block');
+			} else if (info.linkSrc) {
+				$('#linkDiv').html("");
+				/*$('#linkLabel').html(info.linkStr);
+				$('#linkLabel').attr('onclick','window.open("'+info.linkSrc+'")');*/
+				$('#linkDiv').append('<div>关键词：<a onclick="window.open(\'' + info.linkSrc + '\')" style="color:#0000ff;cursor:pointer;" target="_blank">' + info.linkStr + '</a></div>');
+				$('#linkDiv').css('display', 'block');
+			} else {
+				$('#linkDiv').css('display', 'none');
+			}
+			if (info.btnList) {
+				$('#btnList').html('');
+				for (var i = 0; i < info.btnList.length; i++) {
+					$('#btnList').append('<div class=" ' + (info.btnList[i].btnClass ? info.btnList[i].btnClass : 'button') + '" onclick="loadItem(' + info.btnList[i].lastId + ')">' + info.btnList[i].txt + '</div>');
+				}
+			}
+		}
+	}
+	function share() {
+		//可以根据需要实现分享功能
+		//复制下面文案到粘贴板
+		var shareText = '恐怖游戏官网：poet000.github.io \n\n请复制链接到浏览器打开，无法访问请尝试切换网络，或让朋友在官网下载本地版分享给你。';
+		navigator.clipboard.writeText(shareText);
+		alert('已复制以下内容到粘贴板: \n \n ' + shareText);
+	}
+</script>
+<style data-emotion="css" data-s="">
+	:root {
+		--swiper-theme-color: #007aff
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif
+	}
+
+	.div_title {
+		width: 100vw;
+		height: 10vh;
+		position: fixed;
+		top: 0;
+		background: transparent;
+		pointer-events: none;
+		z-index: 1000;
+	}
+
+	.div_title > div {
+		pointer-events: auto;  /* 恢复按钮的点击事件 */
+	}
+
+	.div_mainlay {
+		margin-top: 10px;
+		width: 100vw;
+		height: 100vh;
+		background-image: linear-gradient(rgba(255, 255, 255, 0.09) 74%, rgba(0, 156, 238, 0.3));
+		position: relative;
+		overflow: auto;
+		display: flex;           /* 添加flex布局 */
+		justify-content: center; /* 水平居中 */
+		align-items: center;     /* 垂直居中 */
+	}
+
+	.title_button {
+		color: rgb(255, 255, 255);
+		background: rgb(15, 136, 235);
+		border-radius: 999999px;
+		font-size: 18px;
+		font-weight: 700;
+		width: 100px;
+		height: 42px;
+		border: none;
+		cursor: pointer;
+		margin-top: 5px;
+		/* margin-left: -120px; */
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		justify-content: center;
+		z-index: 1;
+	}
+
+	/* 页脚 */
+	.footer {
+		bottom: 0;
+		width: 100%;
+		margin-top: 70px;
+		background-color: rgba(255, 255, 255, 0);
+		/* 全透明背景 */
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		/* 半透明边框 */
+		/* padding: 10px 0; */
+		text-align: center;
+		z-index: 2;
+	}
+
+	/* 页脚 */
+	.footer a {
+		margin: 5px;
+		text-decoration: none;
+		color: #8B9BAA;
+		font-weight: bold;
+	}
+
+	.text-a {
+		font-size: 1.8rem;
+		font-weight: 500;
+		margin-top: 18px;
+		margin-bottom: 19px;
+		text-align: center;
+	}
+
+	.text-b {
+		font-size: 1.1rem;
+		font-weight: 360;
+		margin-bottom: 19px;
+		text-align: left;
+	}
+
+	.views {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 40px;
+		max-height: 90vh;        /* 防止内容过长 */
+		overflow-y: auto;        /* 内容过长时可滚动 */
+	}
+
+	.button {
+		color: rgb(255, 255, 255);
+		background: rgb(15, 136, 235);
+		border-radius: 999999px;
+		font-size: 18px;
+		font-weight: 700;
+		width: 240px;
+		height: 42px;
+		border: none;
+		cursor: pointer;
+		margin-left: -120px;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		justify-content: center;
+		z-index: 1;
+		margin: 10px 0;
+	}
+
+	.successButton {
+		color: rgb(255, 255, 255);
+		background: rgb(197, 169, 110);
+		border-radius: 999999px;
+		font-size: 18px;
+		font-weight: 700;
+		width: 240px;
+		height: 42px;
+		border: none;
+		cursor: pointer;
+		margin-left: -120px;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		justify-content: center;
+		z-index: 1;
+		margin: 10px 0;
+	}
+</style>
+
+</html>
